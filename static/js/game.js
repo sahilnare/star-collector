@@ -20,8 +20,8 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image('ship', 'public/assets/spaceShips_001.png');
-  this.load.image('otherPlayer', 'public/assets/enemyBlack5.png');
+  this.load.image('ship', 'public/assets/playerShip3_blue.png');
+  this.load.image('otherPlayer', 'public/assets/playerShip1_green.png');
   this.load.image('star', 'public/assets/star_gold.png');
 }
 
